@@ -2,12 +2,12 @@ orbs:
   node: circleci/node@2.0.2
   aws-cli: circleci/aws-cli@2.0.0
 jobs:
-  Test:
+  build_and_deploy:
     machine:
       enabled: true
     steps:
       - run:
-         name: test
+         name: deploy
          aws-access-key-id: AWS_ACCESS_KEY_ID
          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
          region: AWS_DEFAULT_REGIO
@@ -17,7 +17,7 @@ version: 2.1
 workflows:
   build_and_deploy:
     jobs:
-      - Test:
+      - build_and_deploy:
           filters:
             branches:
               only: main
