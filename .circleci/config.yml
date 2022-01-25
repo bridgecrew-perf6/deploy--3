@@ -12,7 +12,7 @@ jobs:
          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
          region: AWS_DEFAULT_REGIO
          command: ssh -o StrictHostKeyChecking=no ubuntu@3.111.29.136;
-         shell: install git;
+         shell: sudo apt-get  git install -y;
 
 version: 2.1
 workflows:
