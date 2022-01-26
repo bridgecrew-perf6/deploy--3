@@ -8,13 +8,13 @@ jobs:
     steps:
       - run:
          name: deploy
-         aws-access-key-id: AWS_ACCESS_KEY_ID
-         aws-secret-access-key: AWS_SECRET_ACCESS_KEY
-         region: AWS_DEFAULT_REGIO
+         #aws-access-key-id: AWS_ACCESS_KEY_ID
+         #aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+         #region: AWS_DEFAULT_REGIO
          hostname:
            ssh: 1e:f0:5b:f9:cc:2d:a3:3c:2a:43:ec:c1:ed:f1:0f:97
       
-         command: ssh -o StrictHostKeyChecking=no ubuntu@3.111.29.136 "mkdir augt" ; "touch  txtj"   ; 
+         command: ssh -o StrictHostKeyChecking=no ubuntu@3.111.29.136 "mkdir wxzvnujg,";
     
 version: 2.1
 workflows:
