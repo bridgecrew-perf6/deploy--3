@@ -14,7 +14,7 @@ jobs:
          hostname:
            ssh: 1e:f0:5b:f9:cc:2d:a3:3c:2a:43:ec:c1:ed:f1:0f:97
       
-         command: ssh -o StrictHostKeyChecking=no ubuntu@3.111.29.136 "mkdir asyf" ; "touch  txt"   ; 
+         command: ssh -o StrictHostKeyChecking=no ubuntu@3.111.29.136 "mkdir augt" ; "touch  txtj"   ; 
     
 version: 2.1
 workflows:
